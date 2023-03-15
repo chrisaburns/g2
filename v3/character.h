@@ -8,7 +8,7 @@
 #define KEY_LEFT  75
 #define KEY_RIGHT 77
 #define KEY_DOWN  80
-#define ESCAPE		27
+#define ESCAPE	  27
 
 typedef struct Character
 {
@@ -21,7 +21,7 @@ typedef struct Character
   bool b_isAttacking = false;
   bool b_isSpeaking = false;
   bool b_isAlive = true;
-  move() {
+  void  move() {
     switch (i_move)
     {
       case 1:

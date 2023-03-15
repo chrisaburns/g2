@@ -1,7 +1,5 @@
 
-//MAIN
 
-#include <conio.h>
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
